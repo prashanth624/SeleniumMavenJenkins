@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FacebookPageSuite]">
+  <listeners>
+    <listener class-name="com.pom.listeners.TestListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="FacebookPageTest(failed)">
+    <classes>
+      <class name="com.pom.testcases.TestFacebookLoginPage">
+        <methods>
+          <include name="endReport"/>
+          <include name="amextentreport"/>
+          <include name="setExtent"/>
+          <include name="getLoginError"/>
+        </methods>
+      </class> <!-- com.pom.testcases.TestFacebookLoginPage -->
+    </classes>
+  </test> <!-- FacebookPageTest(failed) -->
+</suite> <!-- Failed suite [FacebookPageSuite] -->

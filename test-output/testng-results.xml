@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG method started FacebookPageTest]]>
+    </line>
+    <line>
+      <![CDATA[TestNG method started testForgotPassword]]>
+    </line>
+    <line>
+      <![CDATA[TestNG method Passed testForgotPassword]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="FacebookPageSuite" duration-ms="11463" started-at="2021-09-19T13:49:02Z" finished-at="2021-09-19T13:49:14Z">
+    <groups>
+    </groups>
+    <test name="FacebookPageTest" duration-ms="11463" started-at="2021-09-19T13:49:02Z" finished-at="2021-09-19T13:49:14Z">
+      <class name="com.pom.testcases.TestFBForgotPassword">
+        <test-method status="PASS" signature="testForgotPassword()[pri:0, instance:com.pom.testcases.TestFBForgotPassword@711f39f9]" name="testForgotPassword" duration-ms="11432" started-at="2021-09-19T13:49:02Z" finished-at="2021-09-19T13:49:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG method started testForgotPassword]]>
+            </line>
+            <line>
+              <![CDATA[TestNG method Passed testForgotPassword]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testForgotPassword -->
+      </class> <!-- com.pom.testcases.TestFBForgotPassword -->
+    </test> <!-- FacebookPageTest -->
+  </suite> <!-- FacebookPageSuite -->
+</testng-results>
