@@ -9,7 +9,7 @@
 
   <test thread-count="5" name="FacebookPageTest">
     <classes>
-      <class name="com.pom.testcases.TestFacebookLoginPage"/>
+      <!-- <class name="com.pom.testcases.TestFacebookLoginPage"/> -->
       <class name="com.pom.testcases.TestFBForgotPassword"/>
     </classes>
   </test> <!-- FacebookPageTest -->
