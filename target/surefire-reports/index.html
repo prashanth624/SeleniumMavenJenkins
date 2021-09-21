@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-FacebookPageSuite">
-              <span class="suite-name border-failed">FacebookPageSuite</span>
+              <span class="suite-name border-passed">FacebookPageSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-FacebookPageSuite" class="hide-methods failed suite-FacebookPageSuite"> (hide)</a> <!-- hide-methods failed suite-FacebookPageSuite -->
-                      <a href="#" panel-name="suite-FacebookPageSuite" class="show-methods failed suite-FacebookPageSuite"> (show)</a> <!-- show-methods failed suite-FacebookPageSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-FacebookPageSuite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FacebookPageSuite" title="com.pom.testcases.TestFacebookLoginPage" hash-for-method="getLoginError">getLoginError</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-FacebookPageSuite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,11 +102,6 @@
                       <a href="#" panel-name="suite-FacebookPageSuite" class="show-methods passed suite-FacebookPageSuite"> (show)</a> <!-- show-methods passed suite-FacebookPageSuite -->
                     </span>
                     <div class="method-list-content passed suite-FacebookPageSuite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FacebookPageSuite" title="com.pom.testcases.TestFacebookLoginPage" hash-for-method="enterCredentials">enterCredentials</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-FacebookPageSuite" title="com.pom.testcases.TestFBForgotPassword" hash-for-method="testForgotPassword">testForgotPassword</a> <!-- method navigator-link -->
@@ -138,59 +119,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-FacebookPageSuite" class="panel FacebookPageSuite">
-          <div class="suite-FacebookPageSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.pom.testcases.TestFacebookLoginPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getLoginError">
-                  </a> <!-- getLoginError -->
-                  <span class="method-name">getLoginError</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;_9ay7&apos;]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;W1071DXQQ2&apos;, ip: &apos;10.107.115.98&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210816143654, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 28568, moz:profile: C:\Users\prashanth_a1\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ffab19f9-a913-483e-87ac-6b3d492ed88b
-*** Element info: {Using=xpath, value=//div[@class=&apos;_9ay7&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.pom.pages.FacebookHomePage.getErrorMsgHomePage(FacebookHomePage.java:25)
-	at com.pom.testcases.TestFacebookLoginPage.getLoginError(TestFacebookLoginPage.java:85)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FacebookPageSuite-class-failed -->
-          <div class="suite-FacebookPageSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.pom.testcases.TestFacebookLoginPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterCredentials">
-                  </a> <!-- enterCredentials -->
-                  <span class="method-name">enterCredentials</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FacebookPageSuite-class-passed -->
           <div class="suite-FacebookPageSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -223,7 +151,6 @@ Session ID: ffab19f9-a913-483e-87ac-6b3d492ed88b
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;FacebookPageTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.pom.testcases.TestFacebookLoginPage&quot;/&gt;
       &lt;class name=&quot;com.pom.testcases.TestFBForgotPassword&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FacebookPageTest --&gt;
@@ -238,7 +165,7 @@ Session ID: ffab19f9-a913-483e-87ac-6b3d492ed88b
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">FacebookPageTest (2 classes)</span>
+                <span class="test-name">FacebookPageTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -264,24 +191,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'enterCredentials')
-data.setCell(0, 2, 'com.pom.testcases.TestFacebookLoginPage')
-data.setCell(0, 3, 18532);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testForgotPassword')
-data.setCell(1, 2, 'com.pom.testcases.TestFBForgotPassword')
-data.setCell(1, 3, 14964);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'getLoginError')
-data.setCell(2, 2, 'com.pom.testcases.TestFacebookLoginPage')
-data.setCell(2, 3, 10021);
+data.setCell(0, 1, 'testForgotPassword')
+data.setCell(0, 2, 'com.pom.testcases.TestFBForgotPassword')
+data.setCell(0, 3, 14345);
 window.suiteTableData['FacebookPageSuite']= { tableData: data, tableDiv: 'times-div-FacebookPageSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-FacebookPageSuite">
               </div> <!-- times-div-FacebookPageSuite -->
             </div> <!-- times-div -->
@@ -293,29 +212,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">enterCredentials</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">TestNG method started enterCredentials</span>
-                <span class="reporter-method-output">TestNG method Passed enterCredentials</span>
-                <span class="reporter-method-output"><br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">testForgotPassword</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">TestNG method started testForgotPassword</span>
                 <span class="reporter-method-output">TestNG method Passed testForgotPassword</span>
                 <span class="reporter-method-output"><br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">getLoginError</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">TestNG method started getLoginError</span>
-                <span class="reporter-method-output">TestNG method failed getLoginError</span>
-                <span class="reporter-method-output">click to see screenshot</span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="_blank" href="C:\EclipseWorkspace\MavenFramework\src\test\resources\Screenshots\errormessage1.png">Screenshot</a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -333,43 +234,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.pom.testcases.TestFacebookLoginPage</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setExtent</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">enterCredentials</span>
-                <span class="method-start">167 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amextentreport([TestResult name=enterCredentials status=SUCCESS method=TestFacebookLoginPage.enterCredentials()[pri...)</span>
-                <span class="method-start">18702 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">getLoginError</span>
-                <span class="method-start">18714 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">amextentreport([TestResult name=getLoginError status=FAILURE method=TestFacebookLoginPage.getLoginError()[pri:0, in...)</span>
-                <span class="method-start">28880 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.pom.testcases.TestFBForgotPassword</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testForgotPassword</span>
-                <span class="method-start">28883 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.pom.testcases.TestFacebookLoginPage</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">endReport</span>
-                <span class="method-start">43848 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="49.06" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="16.993" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_291\bin"/>
-    <property name="sun.java.command" value="C:\Users\prashanth_a1\AppData\Local\Temp\surefire4130441791652991336\surefirebooter2519168073825807169.jar C:\Users\prashanth_a1\AppData\Local\Temp\surefire4130441791652991336 2021-09-20T15-44-52_148-jvmRun1 surefire2038485198313044082tmp surefire_0761888885455783402tmp"/>
+    <property name="sun.java.command" value="C:\Users\prashanth_a1\AppData\Local\Temp\surefire6320695991327974284\surefirebooter6254220671910006308.jar C:\Users\prashanth_a1\AppData\Local\Temp\surefire6320695991327974284 2021-09-22T00-56-08_420-jvmRun1 surefire7495366581593839960tmp surefire_04007612585528577280tmp"/>
     <property name="surefire.test.class.path" value="C:\EclipseWorkspace\MavenFramework\target\test-classes;C:\EclipseWorkspace\MavenFramework\target\classes;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\prashanth_a1\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\prashanth_a1\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\prashanth_a1\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\prashanth_a1\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\prashanth_a1\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\prashanth_a1\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\prashanth_a1\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\prashanth_a1\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\prashanth_a1\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\prashanth_a1\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\prashanth_a1\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\prashanth_a1\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\prashanth_a1\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\prashanth_a1\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.0\log4j-core-2.14.0.jar;C:\Users\prashanth_a1\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.0\log4j-api-2.14.0.jar;C:\Users\prashanth_a1\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\prashanth_a1\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\prashanth_a1\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\prashanth_a1\.m2\repository\com\google\inject\guice\4.2.3\guice-4.2.3.jar;C:\Users\prashanth_a1\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\prashanth_a1\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\prashanth_a1\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\prashanth_a1\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\prashanth_a1\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\prashanth_a1\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\prashanth_a1\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\prashanth_a1\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\prashanth_a1\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\prashanth_a1\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\prashanth_a1\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\prashanth_a1\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\prashanth_a1\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\prashanth_a1"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\prashanth_a1\AppData\Local\Temp\surefire4130441791652991336\surefirebooter2519168073825807169.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\prashanth_a1\AppData\Local\Temp\surefire6320695991327974284\surefirebooter6254220671910006308.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_291\lib\resources.jar;C:\Program Files\Java\jre1.8.0_291\lib\rt.jar;C:\Program Files\Java\jre1.8.0_291\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_291\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_291\lib\jce.jar;C:\Program Files\Java\jre1.8.0_291\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_291\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_291\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,55 +62,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="enterCredentials" classname="com.pom.testcases.TestFacebookLoginPage" time="18.66">
-    <system-out><![CDATA[[INFO ] 2021-09-20 15:45:14.$$$ [main] TestFacebookLoginPage - browser is opened
-[INFO ] 2021-09-20 15:45:14.$$$ [main] TestFacebookLoginPage - enter the credentials
-[INFO ] 2021-09-20 15:45:19.$$$ [main] TestFacebookLoginPage - login credentials entered successfully
-]]></system-out>
-    <system-err><![CDATA[1632132904882	geckodriver	INFO	Listening on 127.0.0.1:27028
-1632132905534	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PRASHA~1\\AppData\\Local\\Temp\\rust_mozprofilez7dFeU"
-1632132906706	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prashanth_a1\\AppData\\Local\\Temp\\rust_mozprofilez7dFeU\\search.json.mozlz4", (void 0)))
-1632132910970	Marionette	INFO	Listening on port 1061
-1632132911356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Sep 20, 2021 3:45:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <testcase name="testForgotPassword" classname="com.pom.testcases.TestFBForgotPassword" time="14.386">
+    <system-err><![CDATA[1632252376316	geckodriver	INFO	Listening on 127.0.0.1:21226
+1632252376906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PRASHA~1\\AppData\\Local\\Temp\\rust_mozprofileaXLbbv"
+1632252377790	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prashanth_a1\\AppData\\Local\\Temp\\rust_mozprofileaXLbbv\\search.json.mozlz4", (void 0)))
+1632252381066	Marionette	INFO	Listening on port 3384
+1632252381157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Sep 22, 2021 12:56:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="getLoginError" classname="com.pom.testcases.TestFacebookLoginPage" time="9.916">
-    <failure message="Unable to locate element: //div[@class=&apos;_9ay7&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;W1071DXQQ2&apos;, ip: &apos;10.107.115.98&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210816143654, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 28568, moz:profile: C:\Users\prashanth_a1\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: ffab19f9-a913-483e-87ac-6b3d492ed88b&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;_9ay7&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='_9ay7']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'W1071DXQQ2', ip: '10.107.115.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 91.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210816143654, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 28568, moz:profile: C:\Users\prashanth_a1\AppDa..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ffab19f9-a913-483e-87ac-6b3d492ed88b
-*** Element info: {Using=xpath, value=//div[@class='_9ay7']}
-	at com.pom.testcases.TestFacebookLoginPage.getLoginError(TestFacebookLoginPage.java:85)
-]]></failure>
-    <system-out><![CDATA[TestNG method Passed enterCredentials
-]]></system-out>
-  </testcase>
-  <testcase name="testForgotPassword" classname="com.pom.testcases.TestFBForgotPassword" time="14.988">
-    <system-err><![CDATA[1632132930170	geckodriver	INFO	Listening on 127.0.0.1:5522
-1632132930560	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PRASHA~1\\AppData\\Local\\Temp\\rust_mozprofileJwJOvl"
-1632132931792	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\prashanth_a1\\AppData\\Local\\Temp\\rust_mozprofileJwJOvl\\search.json.mozlz4", (void 0)))
-1632132936271	Marionette	INFO	Listening on port 1137
-1632132936396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Sep 20, 2021 3:45:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-1632132941612	Marionette	INFO	Stopped listening on port 1137
-JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yz/l/en_GB/ozPZJBVboQA.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yz/l/en_GB/ozPZJBVboQA.js?_nc_x=Ij3Wp8lg5Kz, line 24: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1632252385598	Marionette	INFO	Stopped listening on port 3384
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
 
-###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 ]]></system-err>
   </testcase>
